@@ -43,11 +43,12 @@ a3 [net-_u2-pad3_ net-_u2-pad4_ net-_u2-pad5_ net-_u2-pad6_ ] [q1 q2 q3 q4 ] u5
 run
 print allv > plot_data_v.txt
 print alli > plot_data_i.txt
+plot v(q0)
 plot v(q1)
 plot v(q2)
 plot v(q3)
-plot v(q4)
 plot v(rst)
-plot v(clkin)
+plot v(clk)
+plot v(clk) v(rst)+5  v(q3)+10 v(q2)+18 v(q1)+27 v(q0)+35
 .endc
 .end
