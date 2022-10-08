@@ -5,26 +5,12 @@
 
 
 ## Table of Contents
-#### 1.[ABSTRACT](https://github.com/abhinandann/8-to-3-bit-Priority-Encoder#1-abstract)
-#### 2.[SOFTWARE USED](https://github.com/abhinandann/8-to-3-bit-Priority-Encoder#2-software-used)
-##### i) [eSIM EDA TOOL](https://github.com/abhinandann/8-to-3-bit-Priority-Encoder#esim-eda-tool) 
-##### ii) [Makerchip](https://github.com/abhinandann/8-to-3-bit-Priority-Encoder#makerchip)
-##### iii) [Verilator](https://github.com/abhinandann/8-to-3-bit-Priority-Encoder#verilator)
-#### 3.[CIRCUIT DESIGN](https://github.com/abhinandann/8-to-3-bit-Priority-Encoder#3-circuit-design)
-  ##### i) [Reference Circuit](https://github.com/abhinandann/8-to-3-bit-Priority-Encoder#reference-circuit)
-  ##### ii) [Reference Waveforms](https://github.com/abhinandann/8-to-3-bit-Priority-Encoder#reference-waveforms)
-#### 4.[IMPLEMENTATION](https://github.com/abhinandann/8-to-3-bit-Priority-Encoder#4-implementation)
- ##### i) [Verilog Code](https://github.com/abhinandann/8-to-3-bit-Priority-Encoder#verilog-code-for-8-to-3-bit-prirority-encoder)
- ##### ii) [Makerchip plots](https://github.com/abhinandann/8-to-3-bit-Priority-Encoder#makerchip-plots)
- ##### iii) [Model for 8-to-3-bit Priority Encoder](https://github.com/abhinandann/8-to-3-bit-Priority-Encoder#model-for-8-to-3-bit-priority-encoder)
- ##### iv) [Schematic Diagram](https://github.com/abhinandann/8-to-3-bit-Priority-Encoder#schematic-diagram)
- ##### v) [Netlists](https://github.com/abhinandann/8-to-3-bit-Priority-Encoder#netlists)
- #####  vi) [Ngspice Plots](https://github.com/abhinandann/8-to-3-bit-Priority-Encoder#ngspice-plots)
-####  5. [STEPS TO GENERATE NgVeri MODEL](https://github.com/abhinandann/8-to-3-bit-Priority-Encoder#5-steps-to-generate-ngveri-model-1)
-####  6. [STEPS TO RUN THE PROJECT](https://github.com/abhinandann/8-to-3-bit-Priority-Encoder#6-steps-to-run-the-project-1)
-#### 7.[REFERENCES](https://github.com/abhinandann/8-to-3-bit-Priority-Encoder#7-references)
-#### 8.[AKNOWLEDGEMENT](https://github.com/abhinandann/8-to-3-bit-Priority-Encoder#8-aknowledgement)
-#### 9.[AUTHOR](https://github.com/abhinandann/8-to-3-bit-Priority-Encoder#9-author)
+#### 1.[ABSTRACT](https://github.com/abhinandann/MOD-10-Ripple-Counter#1-abstract)
+#### 2.[SOFTWARE USED](https://github.com/abhinandann/MOD-10-Ripple-Counter#2-software-used)
+#### 3.[CIRCUIT DESIGN](https://github.com/abhinandann/MOD-10-Ripple-Counter#3-circuit-design)
+#### 4.[IMPLEMENTATION](https://github.com/abhinandann/MOD-10-Ripple-Counter#4-implementation)
+#### 7.[REFERENCES](https://github.com/abhinandann/MOD-10-Ripple-Counter#7-references)
+#### 8.[AKNOWLEDGEMENT](https://github.com/abhinandann/MOD-10-Ripple-Counter#8-aknowledgement)
 
 ### 1. ABSTRACT
 
@@ -117,7 +103,7 @@ endmodule
 
 ![makerchip](https://user-images.githubusercontent.com/91964227/194719988-0510cae6-219e-4cb8-8b5a-8650e3ecdbaa.JPG)
 
-#### Model For 8-to-3-bit Priority Encoder
+#### Model For MOD-10 Ripple counter
 
 ![model](https://user-images.githubusercontent.com/91964227/194720195-d27422e8-423f-46b1-93cd-6b5a78020a91.JPG)
 
@@ -202,15 +188,15 @@ plot v(clk)
 1. Open new terminal
 2. Clone this project using the following command:
 ```
-git clone https://github.com/abhinandann/8-to-3-bit-Priority-Encoder.git
+git clone https://github.com/abhinandann/mod-10_ripple.git
 ```
 3. Change Directory: 
 ```
-cd esim-workspace/8_3_priorityencoder
+cd esim-workspace/mod-10_ripple
 ```
 4. Run Ngspice:
 ```
-ngspice 8_3_priorityencoder.cir.out
+ngspice mod-10_ripple.cir.out
 ```
 5. To run the project in eSim:
 * Run eSim
