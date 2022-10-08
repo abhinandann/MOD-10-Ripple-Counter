@@ -166,6 +166,7 @@ plot v(q2)
 plot v(q3)
 plot v(rst)
 plot v(clk)
+plot v(clk) v(rst)+5  v(q3)+10 v(q2)+18 v(q1)+27 v(q0)+35
 .endc
 .end
 ```
