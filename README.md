@@ -212,7 +212,7 @@ ngspice mod-10_ripple.cir.out
 1. FOSSEE, IIT Bombay
 2. Steve Hoover, Founder, Redwood EDA
 3. [Kunal Ghosh](https://github.com/kunalg123), Co-founder of VLSI System Design (VSD) Corp. Pvt. Ltd.
-4. [Sumanto kar](https://github.com/Eyantra698Sumanto), Sr. Project Technical Assistant, IIT BOMBAY
+4. [Sumanto kar](https://github.com/Eyantra698Sumanto), Sr.Project Technical Assistant, IIT BOMBAY
 
 ### 9. AUTHOR
 
